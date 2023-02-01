@@ -1,0 +1,8 @@
+<h1>Photo Library</h1>
+
+<ul>
+  {% for photo in photos %}
+    <li><img src="{{ photo.image.url }}" alt="{{ photo.image.name }}"></li>
+    <p>Uploaded at: "{{ photo.uploaded_at }}"</p>
+  {% endfor %}
+</ul>
