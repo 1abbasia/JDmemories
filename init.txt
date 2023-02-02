@@ -1,0 +1,14 @@
+JD Memories Project:
+
+Will Need:
+  1. Elegant UI using MaterialUI
+  2. Ability to sort through and broswe by date
+  3. A homepage that land with a list of photos from current date, using the photos metadat
+  4. A random memories button that creates a slideshow of random photos
+  5. User Can exit the slideshow at any time.
+  6. User can share photos they like to social media 
+
+
+  So far,
+  Set up the server which runs, serves one template but the data is not being sent 
+  

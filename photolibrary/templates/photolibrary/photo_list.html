@@ -1,7 +1,7 @@
-<h1>Photo Library</h1>
+<h1>JDMemories Library</h1>
 
 <ul>
-  
-    
-  
+  {% for photo in photos %}
+    <li><img src="{{ photo.image.url }}" alt="{{ photo.image.name }}"></li>
+  {% endfor %}
 </ul>
